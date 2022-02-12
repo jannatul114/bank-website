@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>bank</title>
+    <style>
+        body {
+            font-family: 'Dosis', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-16">Welcome to <span class="font-semibold text-teal-500"> my bank</span></h1>
+    </header>
+
+    <main>
+        <section id="parent" class="bg-cyan-200 w-2/4 mx-auto mt-10 rounded-md p-8">
+            <h3 class="text-2xl font-semibold mb-4">Please Login</h3>
+
+            <div>
+                <input id="user-email" class="outline-none border block border-stone-500 rounded w-3/4 mb-4 p-2"
+                    type="text" placeholder="your Email">
+                <input id="user-password" class="outline-none border-none block rounded w-3/4 p-2" type="password"
+                    placeholder="password">
+
+                <button id="login-submit" class="bg-sky-400 mt-4 px-4 py-1 font-bold rounded-md">Submit</button>
+            </div>
+
+        </section>
+    </main>
+
+
+    <script src="js/login.js">
+
+    </script>
+</body>
+
+</html>
